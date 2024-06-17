@@ -1,4 +1,3 @@
-
 // HAMBURGER MENU
 const hamButton = document.querySelector("#menu");
 const navigation = document.querySelector(".navigation");
@@ -32,9 +31,9 @@ function formatDate(date) {
   return `${month}/${day}/${year} ${formatAMPM(date)}`;
 }
 
-let now = new Date();
-let formattedDate = formatDate(now);
-document.getElementById("lastModified").textContent = formattedDate;
+let lastModified = new Date(document.lastModified);
+let formattedDate = formatDate(lastModified);
+document.getElementById("lastModified").textContent = `Last Update: ${formattedDate}`;
 
 // ///////////////////////////////////////////////////////////////////////
 // COURSES CONTENT
