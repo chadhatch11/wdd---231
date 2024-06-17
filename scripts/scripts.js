@@ -1,4 +1,4 @@
-// ///////////////////////////////////////////////////////////////////////////
+
 // HAMBURGER MENU
 const hamButton = document.querySelector("#menu");
 const navigation = document.querySelector(".navigation");
@@ -8,13 +8,11 @@ hamButton.addEventListener("click", () => {
   hamButton.classList.toggle("open");
 });
 
-// ///////////////////////////////////////////////////////////////////////////
 // CURRENT YEAR
 const year = document.querySelector("#currentyear");
 const today = new Date();
 year.innerHTML = `© <span class="highlight">${today.getFullYear()}</span>`;
 
-// /////////////////////////////////////////////////////////////////////////////
 // LAST UPDATE
 function formatAMPM(date) {
   let hours = date.getHours();
@@ -131,7 +129,6 @@ function renderCourses(_coursesData) {
 
 renderCourses(coursesData);
 
-// /////////////////////////////////////////////////////////////////////////////
 // FILTER COURSES
 const filterContainer = document.getElementById("filters");
 
