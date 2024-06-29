@@ -75,5 +75,27 @@
         "industry": "Finance",
         "contact_person": "Juan Pablo",
         "email": "contact@cajacusco.com"
+    },
+    {
+        "name": "Caja Municipal Cusco",
+        "address": "F2V3+586, Cusco, Peru",
+        "phone_number": "(51) 8002-0002",
+        "website_url": "https://www.cmac-cusco.com.pe/",
+        "image_icon": "../chamber/images/caja.webp",
+        "membership_level": 3,
+        "industry": "Finance",
+        "contact_person": "Juan Pablo",
+        "email": "contact@cajacusco.com"
+    },
+    {
+        "name": "Caja Municipal Cusco",
+        "address": "F2V3+586, Cusco, Peru",
+        "phone_number": "(51) 8002-0002",
+        "website_url": "https://www.cmac-cusco.com.pe/",
+        "image_icon": "../chamber/images/caja.webp",
+        "membership_level": 3,
+        "industry": "Finance",
+        "contact_person": "Juan Pablo",
+        "email": "contact@cajacusco.com"
     }
   ]
