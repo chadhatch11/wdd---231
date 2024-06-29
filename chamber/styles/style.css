@@ -1,0 +1,353 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  :root {
+    --primary-color: #5f9fff;
+    --secondary-color: #00416a;
+    --accent-color: #add8e6;
+    --background-color: #011f5b;
+  }
+  
+
+  
+  /* HEADER */
+  .nav-container {
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .nav-info-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-image img {
+    align-self: flex-start;
+    margin-left: 20px;
+    margin-top: 12px;
+    padding-bottom: 12px;
+  }
+  
+  .navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    list-style: none;
+    background-color: #000;
+  }
+  
+  .navigation a {
+    width: 100%;
+    font-size: 25px;
+    font-weight: 100;
+    display: none;
+    padding: 0.7rem;
+    text-align: left;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .navigation a:hover {
+    background-color: gray;
+    color: black;
+    font-size: 25px;
+    width: 100%;
+    text-align: left;
+    font-weight: 100;
+    border-radius: 5px;
+  }
+  
+  .open a {
+    display: block;
+  }
+  
+  #menu {
+    font-size: 55px;
+    border: 0;
+    background: none;
+    color: #ffffff;
+    position: absolute;
+    top: 0.7rem;
+    right: 2rem;
+  }
+  
+  #menu::before {
+    content: "☰";
+  }
+  
+  #menu.open::before {
+    content: "🗙";
+  }
+  
+  /* header-container */
+  .header-image-bizzco {
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .header-title {
+    font-size: 65px;
+    margin-block: 10px;
+    margin-inline: 30px;
+    margin-top: 40px;
+  }
+  
+  .header-prg {
+    font-size: 20px;
+    margin-inline: 5%;
+    padding-right: 20px;
+  }
+  
+  .header-image-bizzco img {
+    object-fit: contain;
+    width: 100%;
+    height: auto;
+  }
+  
+  .bttn-header {
+    margin-top: 15px;
+    padding: 10px 20px;
+    border-radius: 15px;
+    background-color: var(--background-color);
+    color: white;
+    font-weight: 100;
+    margin-left: 40px;
+    margin-bottom: 40px;
+  }
+  
+  /* MAIN */
+  .event-section{
+      background-color:#ffd255;
+      padding-block: 40px;
+      padding-left: 20px;
+  }
+  
+  .event-title{
+      padding-bottom: 20px;
+  }
+  
+  .event-title span{
+      display: block;
+      font-size: 40px;
+      margin-block: 7px;
+  }
+  
+  .event-title p{
+      font-size: 14px;
+  }
+  
+  .event-info{
+      margin-bottom: 30px;
+      background-color: #fcfcfc9d;
+      width: 98%;
+      padding-left: 10px;
+      padding-bottom: 10px;
+      box-shadow: 5px 4px 8px -3px rgba(0,0,0,0.56);
+  }
+  
+  .line{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content:left;
+      padding-block: 5px;
+      gap: 5px;
+      width: 100%;
+  }
+  
+  .event-card-title{
+      font-size: 20px;
+      font-weight: 600;
+      margin-block: 5px;
+      display: block;
+  }
+  
+  /* .event-info span{
+      border: 1px solid green;
+      font-size: 20px;
+      font-weight: 400;
+  } */
+  
+  
+  /* Button cards members */
+  .button {
+    margin-block: 20px;
+    padding: 10px 40px;
+    margin-right: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+  }
+  
+  .button:hover {
+    background-color: gray;
+    color: black;
+  }
+  
+  .container-center {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .flex-container {
+    display: flex;
+    gap: 10px;
+    max-width: 95%;
+    margin-inline: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .col-1 {
+    flex-basis: 100%;
+  }
+  
+  .col-3 {
+    flex-basis: 30%;
+  }
+  
+  .card {
+    border-radius: 8px;
+    background-color: gray;
+    flex-basis: 30%;
+    flex-grow: 1;
+    border: 1px solid #000;
+  }
+  
+  .card-header {
+    border-bottom: 1px solid var(--background-color);
+    padding-block: 10px;
+    text-align: center;
+  }
+  
+  .card-body {
+    display: flex;
+    gap: 5px;
+    margin: 10px 5px;
+  }
+  
+  .card-image {
+    width: 70px;
+    margin-right: 5px;
+  }
+  
+  .card-image img {
+    display: block;
+    width: 100%;
+  }
+  
+  .card-content p {
+    font-size: 0.95rem;
+    margin-block: 4px;
+  }
+  
+  .font-bold {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.8rem;
+  }
+  
+  /* FOOTER */
+  
+  .footer {
+    background-color: #000;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-block: 10px;
+    padding-left: 20px;
+    margin-top: 40px;
+  }
+  
+  .cusco-column p {
+    padding-bottom: 5px;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
+  .info-column p {
+    padding-bottom: 5px;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
+  @media screen and (min-width: 769px) {
+    .header-image-bizzco {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  
+    .header-image-info {
+      background-color: #5f9fff;
+      clip-path: polygon(0 0, 100% 0, 85% 99%, 0% 100%);
+      max-width: 100%;
+      width: 100%;
+    }
+  
+    .header-title {
+      font-size: 65px;
+      margin-block-start: 20%;
+      margin-inline: 5%;
+      padding-right: 20px;
+    }
+  
+    .header-prg {
+      font-size: 20px;
+      margin-inline: 5%;
+      padding-right: 20px;
+    }
+  
+    .header-image-bizzco img {
+      object-fit: contain;
+      width: 50%;
+      height: 700px;
+    }
+  
+    .bttn-header {
+      margin-top: 15px;
+      padding: 10px 20px;
+      border-radius: 15px;
+      background-color: var(--background-color);
+      color: white;
+      font-weight: 700;
+      margin-left: 40px;
+    }
+  
+    .nav-container {
+      flex-direction: row;
+    }
+  
+    .navigation {
+      padding-left: 10px;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .navigation a {
+      display: block;
+      text-align: center;
+    }
+  
+    .navigation a:hover {
+      text-align: center;
+    }
+  
+    #menu {
+      display: none;
+    }
+  
+    .footer {
+      flex-direction: row;
+      gap: 400px;
+      padding-inline: 10%;
+    }
+  }

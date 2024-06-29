@@ -23,7 +23,7 @@ async function getMembers() {
           <div class="card">
               <div class="card-header">
                   <span class="card-title">${name}</span>
-                  <p class="card-subtitle">Business Tag Line</p>
+                  <p class="card-subtitle"></p>
               </div>
               <div class="card-body">
                   <div class="card-image">
