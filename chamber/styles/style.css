@@ -86,9 +86,10 @@
   
   /* header-container */
   .header-image-bizzco {
-    background-color: gray;
+    background-color: #fcfcfc9d;
     display: flex;
     flex-direction: column;
+    border: #000 2px solid;
   }
   
   .header-title {
@@ -114,7 +115,7 @@
     margin-top: 15px;
     padding: 10px 20px;
     border-radius: 15px;
-    background-color: var(--background-color);
+    background-color: black;
     color: white;
     font-weight: 100;
     margin-left: 40px;
@@ -123,7 +124,8 @@
   
   /* MAIN */
   .event-section{
-      background-color:#ffd255;
+      border: #000 solid 3px;
+      background-color: #fcfcfc9d;
       padding-block: 40px;
       padding-left: 20px;
   }
@@ -144,11 +146,10 @@
   
   .event-info{
       margin-bottom: 30px;
-      background-color: #fcfcfc9d;
+      background-color: gray;
       width: 98%;
       padding-left: 10px;
       padding-bottom: 10px;
-      box-shadow: 5px 4px 8px -3px rgba(0,0,0,0.56);
   }
   
   .line{
@@ -167,13 +168,6 @@
       margin-block: 5px;
       display: block;
   }
-  
-  /* .event-info span{
-      border: 1px solid green;
-      font-size: 20px;
-      font-weight: 400;
-  } */
-  
   
   /* Button cards members */
   .button {
@@ -286,8 +280,7 @@
     }
   
     .header-image-info {
-      background-color: #5f9fff;
-      clip-path: polygon(0 0, 100% 0, 85% 99%, 0% 100%);
+      background-color: #fcfcfc9d;
       max-width: 100%;
       width: 100%;
     }
