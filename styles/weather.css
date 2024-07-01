@@ -1,0 +1,7 @@
+figcaption {
+    text-transform: capitalize;
+}
+
+.parent + p {
+    color: blue;
+}

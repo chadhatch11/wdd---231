@@ -5,8 +5,8 @@
   }
   
   :root {
-    --primary-color: #5f9fff;
-    --secondary-color: #00416a;
+    --primary-color: gray;
+    --secondary-color: black;
     --accent-color: #add8e6;
     --background-color: #011f5b;
   }
@@ -123,6 +123,43 @@
   }
   
   /* MAIN */
+
+
+.hero {
+  text-align: center;
+  position: relative;
+}
+
+.hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+.hero button {
+  position: absolute;
+  bottom: 25px;
+  right: 25px;
+  background-color: var(--secondary-color);
+  color: white;
+  font-family: var(--font-family-serif);
+  text-wrap: wrap;
+  height: 50px;
+  width: 200px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+.hero button:hover {
+  background-color: var(--primary-color);
+}
+
+.hero button:active {
+  background-color: var(--card-color);
+  color: var(--text-color-dark);
+}
   .event-section{
       border: #000 solid 3px;
       background-color: #fcfcfc9d;
