@@ -85,7 +85,7 @@
   }
   
   /* header-container */
-  .header-image-bizzco {
+  .header-image {
     background-color: #fcfcfc9d;
     display: flex;
     flex-direction: column;
@@ -105,7 +105,7 @@
     padding-right: 20px;
   }
   
-  .header-image-bizzco img {
+  .header-image img {
     object-fit: contain;
     width: 100%;
     height: auto;
@@ -274,7 +274,7 @@
   }
   
   @media screen and (min-width: 769px) {
-    .header-image-bizzco {
+    .header-image {
       flex-direction: row;
       justify-content: space-between;
     }
@@ -298,7 +298,7 @@
       padding-right: 20px;
     }
   
-    .header-image-bizzco img {
+    .header-image img {
       object-fit: contain;
       width: 50%;
       height: 700px;
