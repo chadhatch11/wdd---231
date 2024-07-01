@@ -381,3 +381,85 @@
       padding-inline: 10%;
     }
   }
+  #home-container, #directory-container {
+    margin: 0px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-heading {
+    font-size: 1.75rem;
+}
+
+#home-cards, #directory-cards {
+    display: flex;
+    flex-direction: column;
+}
+
+.home-card {
+    background-color: gray;
+    margin-bottom: 20px;
+    font-size: 0.9rem;
+}
+
+.home-card h2 {
+    margin: 0;
+    font-size: 1rem;
+    background-color: white;
+    color: var(--text-color);
+    padding: 10px;
+}
+
+#home-dir-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+#events p {
+    margin: 0;
+    padding: 20px;
+}
+
+#weather-icon {
+    grid-column: 1/2;
+    padding: 20px;
+    justify-self: center;
+}
+
+#current-weather-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding-right: 10px;
+    padding-top: 1rem;
+}
+
+.temps {
+    font-weight: bold;
+}
+
+#temp-desc {
+    text-transform: capitalize;
+}
+
+#current-weather-details span {
+    font-weight: normal;
+    margin-left: 5px;
+}
+
+#forecast-details {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+}
+
+#forecast-details span {
+    padding: 10px;
+}
+
+.card-label {
+    font-weight: bold;
+    margin-right: 5px;
+    font-size: .9rem;
+}

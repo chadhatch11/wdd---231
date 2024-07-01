@@ -40,8 +40,8 @@ async function displayCurrentWeather() {
 
     iconImg.setAttribute("src", weatherIcon);
     iconImg.setAttribute("alt", currentData.weather[0].description);
-    iconImg.setAttribute("width",70);
-    iconImg.setAttribute("height",70);
+    iconImg.setAttribute("width", 70);
+    iconImg.setAttribute("height", 70);
     icon.appendChild(iconImg);
     temp.innerHTML = `${currentData.main.temp.toFixed(0)}&deg;C</span>`;
     desc.innerHTML = currentData.weather[0].description;
@@ -121,6 +121,7 @@ async function getForecastData() {
 }
 
 // Get and display member directory cards
-import { displayMembers } from "./members.js";
+import { renderMember } from './members.js';
+
 const cards = document.querySelector("#home-dir-cards");
-displayMembers(cards, true);
+renderMember();
