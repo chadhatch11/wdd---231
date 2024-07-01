@@ -2,9 +2,9 @@ const place = document.querySelector("#place");
 const currentTemp = document.querySelector("#current-temp");
 const weatherIcon = document.querySelector("#weather-icon");
 const captionDesc = document.querySelector("figcaption");
-const lat = -13.5320;  // Latitude for Cuzco, Peru
-const lon = -71.9675;  // Longitude for Cuzco, Peru
-const appId = "fd5fdbc8b7527a50b0aefc23011a689c";  // Your API key
+const lat = -13.5320;  
+const lon = -71.9675;
+const appId = "fd5fdbc8b7527a50b0aefc23011a689c";  
 const urlCurrent = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${appId}&units=metric`;
 const urlForecast = `https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=${appId}&units=metric&cnt=24`;
 
