@@ -34,3 +34,34 @@ function formatDate(date) {
 let lastModified = new Date(document.lastModified);
 let formattedDate = formatDate(lastModified);
 document.getElementById("lastModified").textContent = `Last Update: ${formattedDate}`;
+
+// TIMESTAMP
+document.addEventListener("DOMContentLoaded", function() {
+  var timestamp = document.getElementById("timestamp");
+  timestamp.value = new Date().toISOString();
+});
+
+// MODAL FUNCTIONALITY
+const modalTriggers = document.querySelectorAll("[id^='modalTrigger']");
+const modals = document.querySelectorAll(".modal");
+const closes = document.querySelectorAll(".close");
+
+modalTriggers.forEach((trigger, index) => {
+  trigger.addEventListener("click", () => {
+    modals[index].style.display = "block";
+  });
+});
+
+closes.forEach((close, index) => {
+  close.addEventListener("click", () => {
+    modals[index].style.display = "none";
+  });
+});
+
+window.addEventListener("click", (event) => {
+  modals.forEach(modal => {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  });
+});
