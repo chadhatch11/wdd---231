@@ -10,21 +10,21 @@ const membersData = [
     },
     {
       id: "bronze",
-      name: "Bronze",
+      name: "Bronze Membership",
       level: 2,
       description:
         "This membership level provides you basic access to Cusco's services and resources. You can join the Cusco community and participate in our events and activities.",
     },
     {
       id: "silver",
-      name: "Silver",
+      name: "Silver Membership",
       level: 3,
       description:
         "This membership level provides you advanced access to Cusco's services and resources. You can join the Cusco community and participate in our events and activities",
     },
     {
       id: "gold",
-      name: "Gold",
+      name: "Gold Membership",
       level: 4,
       description:
         "This membership level offers you unlimited access to Cusco's premium services and resources. You can join the Cusco community and participate in our exclusive resources and benefits.",
