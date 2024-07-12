@@ -1,0 +1,87 @@
+:root {
+  --font-color: #000;
+  --background-color: #fff;
+  --header-footer: darkseagreen;
+  --accent-color: gray;
+  --nav-hover-link-color: #ccc;
+  --heading-font: "Caveat", sans-serif;
+  --paragraph-font: "Caveat", sans-serif;
+}
+
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4em;
+  font-size: 16px; 
+  text-align: center;
+  background-color: var(--background-color);
+  color: var(--font-color);
+}
+
+img {
+  margin: 50px auto;
+  width: 60%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading-font);
+}
+
+h2 {
+  text-align: center;
+}
+
+hr {
+  height: 3px;
+  margin: 35px 0;
+}
+
+header {
+  padding: 1em;
+  text-align: center;
+  background-color: var(--header-footer);
+}
+Footer {
+  padding: 1em;
+  text-align: center;
+  background-color: var(--header-footer);
+}
+header > h1, header > h2 {
+  color: var(--font-color); 
+}
+
+p {
+  font-family: var(--paragraph-font);
+  padding: 1em;
+  font-size: 1.5rem;
+}
+
+.colors {
+  width: 100%;
+  min-width: 350px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+nav {
+  background-color: #02033b;
+  line-height: 3em;
+  text-align: center;
+  font-size: 25px;
+  font-family: var(--paragraph-font);
+  display: flex;
+  justify-content: center; 
+}
+
+nav a {
+  padding: 1em 2em;
+  min-width: 120px;
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover {
+  color: var(--nav-hover-link-color);
+  background-color: var(--accent-color);
+}
+
