@@ -84,13 +84,7 @@
   #menu.open::before {
     content: "🗙";
   }
-  
 
-  
-  .header-image-info {
-    background-color: var(--main-color);
-    color: var(--lighten-color);
-  }
   
   .header-title {
     font-size: 65px;
@@ -437,18 +431,6 @@
   }
   
   @media screen and (min-width: 769px) {
-    .header-image-bizzco {
-      flex-direction: row;
-      justify-content: space-between;
-    }
-  
-    .header-image-info {
-      background-color: var(--main-color);
-      clip-path: polygon(0 0, 100% 0, 85% 99%, 0% 100%);
-      max-width: 100%;
-      width: 100%;
-    }
-  
     .header-title {
       font-size: 65px;
       margin-block-start: 20%;
@@ -462,11 +444,7 @@
       padding-right: 20px;
     }
   
-    .header-image-bizzco img {
-      object-fit: contain;
-      width: 50%;
-      height: 700px;
-    }
+
   
     .bttn-header {
       margin-top: 15px;
