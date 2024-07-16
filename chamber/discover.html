@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cusco | Chamber of Commerce Discover Page</title>
+  <meta name="author" content="Chad Hatch">
+  <meta name="description" content="This is a website for the chamber of commerce.">
+  <meta property="og:title" content="Cusco | Chamber of Commerce Discover Page">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://chadhatch11.github.io/wdd231/chamber/images/machu-picchu.webp">
+  <meta property="og:image:width" content="600">
+  <meta property="og:image:height" content="400">
+  <meta property="og:url" content="https://chadhatch11.github.io/wdd231/chamber/discover.html">
+  <link rel="stylesheet" href="https://unpkg.com/normalize.css">
+  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="icon" href="./images/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <script src="scripts/scripts.js" defer></script>
+  <script src="scripts/visit.js" defer></script>
+  <script src="scripts/home.js" defer></script>
+</head>
+<body>
+  <header class="header">
+    <div class="nav-container">
+      <div class="nav-info-container">
+        <div class="logo-image">
+          <img src="images/cusco.png" alt="logo" width="200" height="200">
+        </div>
+        <button aria-label="Submit" id="menu"></button>
+      </div>
+      <nav class="navigation">
+          <a href="index.html" title="Home">Home</a>
+          <a href="directory.html" title="Directory">Directory</a>
+          <a href="join.html" title="Join">Join</a>
+          <a href="discover.html" title="DIscover">Discover</a>
+      </nav>
+    </div>
+  </header>
+  <main class="grid-container">
+    <section class="side-bar">
+      <div class="sidebar" id="visit-message"></div>
+      <div class="card-blog">
+        <div class="card-blog-content">
+          <div class="card-header-blog">
+            <h2 class="card-title-blog">Stay Informed with Our Blog</h2>
+            <p class="card-sub-blog">
+              The Ultimate Guide to E-commerce Success, learn the strategies
+              and tactics to grow your online business.
+            </p>
+            <button class="blog-bttn" type="button">Learn More</button>
+          </div>
+          <div class="card-img-blog">
+            <img
+              src="./images/flag.svg"
+              alt="blog"
+              width="200"
+              height="100"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="card-header-event">
+        <div class="event-section">
+          <div class="event-title">
+            <p>Upcoming</p>
+            <span>EVENTS</span>
+            <p>
+              Below are the upcoming workshops that we have for members of Chamber of Commerce!
+            </p>
+          </div>
+          <div class="event-card">
+            <div class="event-info">
+              <p class="line">
+                <img src="./images/clock.png" alt="clock" width="30" height="30">
+                Monday @ 7:00 - 7:30 pm
+                </p>
+                <span class="event-card-title">Social Media</span>
+                <p>
+                We will teach you how to use social media to advertise your business and help it grow.
+                </p>
+            </div>
+            <div class="event-info">
+              <p class="line">
+                <img src="./images/clock.png" alt="clock" width="30" height="30">
+                Tuesday @ 7:00 - 7:30 pm
+              </p>
+              <span class="event-card-title">Customer Service</span>
+              <p>
+                We will teach you how to deal with unsatisfied customers in the correct way to help your business grow.
+              </p>
+            </div>
+            <div class="event-info">
+              <p class="line">
+                <img src="./images/clock.png" alt="clock" width="30" height="30">
+                Wednesday @ 7:00 - 7:30 pm
+              </p>
+              <span class="event-card-title">Investments</span>
+              <p>
+                We have a financial expert that will teach you how to invest your hard-earned money to gain financial freedom.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- calendar -->
+      <div class="calendar-back">
+        <div class="calendar">
+          <header>
+            <nav>
+              <button type="button" id="prev"></button>
+              <button type="button" id="next"></button>
+            </nav>
+          </header>
+          <section>
+            <ul class="days">
+              <li>Sun</li>
+              <li>Mon</li>
+              <li>Tue</li>
+              <li>Wed</li>
+              <li>Thu</li>
+              <li>Fri</li>
+              <li>Sat</li>
+            </ul>
+            <ul class="dates"></ul>
+          </section>
+        </div>
+      </div>
+    </section>
+    <section class="gallery">
+      <div class="gallery-info">
+        <span class="gallery-title">Explore Our Many Tourist Attractions</span>
+        <p class="gallery-sub">
+          Welcome to Cusco! Our city has some of the best tourist attractions in the world. This is just a pinch of what you can see when you come to one of the most breathtaking cities in the world.
+        </p>
+      </div>
+      <div class="polaroid">
+        <img
+          src="./images/Sacsayhuaman.webp"
+          alt="Sacsayhuaman"
+          loading="lazy"
+        />
+        <div class="pola-title-container">
+          <p class="polaroid-title">Sacsayhuaman</p>
+        </div>
+      </div>
+      <div class="polaroid">
+        <img
+          src="./images/rainbow.jpg"
+          alt="Rainbow Mountain"
+          loading="lazy"
+        />
+        <div class="pola-title-container">
+          <p class="polaroid-title">Rainbow Mountain</p>
+        </div>
+      </div>
+      <div class="polaroid">
+        <img
+          src="./images/machu-picchu.jpeg"
+          alt="Machu Picchu"
+          loading="lazy"
+        />
+        <div class="pola-title-container">
+          <p class="polaroid-title">Machu Picchu</p>
+        </div>
+      </div>
+      <div class="polaroid">
+        <img
+          src="./images/village.jpg"
+          alt="Inca Village"
+          loading="lazy"
+        />
+        <div class="pola-title-container">
+          <p class="polaroid-title">Inca Village</p>
+        </div>
+      </div>
+      <div class="polaroid">
+        <img
+          src="./images/church.jpg"
+          alt="Oldest Church in Cusco"
+          loading="lazy"
+        />
+        <div class="pola-title-container">
+          <p class="polaroid-title">Oldest Church in Cusco</p>
+        </div>
+      </div>
+      <div class="polaroid">
+        <img
+          src="./images/christ.jpg"
+          alt="Cristo Resurected"
+          loading="lazy"
+        />
+        <div class="pola-title-container">
+          <p class="polaroid-title">Cristo Resurected</p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="cusco-column">
+      <p><span>Cusco Chamber of Commerce</span></p>
+      <p>F2JC+PMR</p>
+      <p>Cusco, 08002, Peru</p>
+      <p>info@cuscomunicipalidad.org</p>
+      <p>(51) 8422-8988</p>
+    </div>
+    <div class="social-column">
+      <img src="images/twitter.png" alt="twitter-icon" width="50" height="50">
+      <img src="images/facebook.png" alt="facebook-icon" width="50" height="50">
+      <img src="images/instagram.png" alt="Instagram-icon" width="50" height="50">
+    </div>
+    <div class="info-column">
+      <p>WDD231 Class Project</p>
+      <p>Chad Hatch</p>
+      <p id="currentyear">Cusco Chamber of Commerce</p>
+      <p id="lastModified">Last Modification:</p>
+    </div>
+  </footer>
+</body>
+</html>
