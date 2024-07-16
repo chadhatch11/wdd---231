@@ -158,7 +158,7 @@
   /* EVENTS FOR HOME PAGE */
   .event-section {
     background-color: var(--second-color);
-    color: var(--darker-color);
+    color: var(--main-color);
     padding-block: 40px;
     padding-left: 20px;
   }
@@ -171,13 +171,13 @@
     display: block;
     font-size: 40px;
     margin-block: 7px;
-    color: var(--darker-color);
+    color: var(--lighten-color);
     font-weight: bold;
   }
   
   .event-title p {
     font-size: 16px;
-    color: var(--darker-color);
+    color: var(--lighten-color);
     font-weight: bold;
   }
   
@@ -187,7 +187,7 @@
     width: 98%;
     padding-left: 10px;
     padding-bottom: 10px;
-    box-shadow: 5px 4px 8px -3px rgba(0, 0, 0, 0.56);
+
   }
   
   .line {
@@ -222,7 +222,7 @@
   
   .card-blog-content {
     background-color: var(--lighten-color);
-    color: var(--darker-color);
+    color: var(--second-color);
     margin-block: 10px;
     margin-inline: 40px;
     padding-block: 60px;
@@ -252,7 +252,7 @@
   }
   
   .blog-bttn:hover {
-    background-color: #5f9fff;
+    background-color: var(--darker-color);
     cursor: pointer;
     color: black;
   }
@@ -262,111 +262,10 @@
     height: 150px;
   }
   
-  /* CALENDAR CONTAINER */
-  .calendar-back {
-    background-color: var(--second-color);
-    padding-block: 40px;
-  }
-  
-  .calendar {
-    background-color: var(--lighten-color);
-    color: var(--darker-color);
-    margin: auto;
-    width: 380px;
-    padding: 1rem;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.175);
-  }
-  
-  .calendar header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  
-  .calendar ul {
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
-  }
-  
-  .calendar ul li {
-    width: calc(100% / 7);
-    margin-top: 25px;
-    position: relative;
-    z-index: 2;
-  }
-  
-  h3 {
-    font-weight: 600;
-  }
-  
-  #prev,
-  #next {
-    width: 20px;
-    height: 20px;
-    position: relative;
-    border: none;
-    background: transparent;
-    cursor: pointer;
-  }
-  
-  #prev::before,
-  #next::before {
-    content: "";
-    width: 50%;
-    height: 50%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    border-style: solid;
-    border-width: 0.25em 0.25em 0 0;
-    border-color: var(--darker-color);
-  }
-  
-  #next::before {
-    transform: translate(-50%, -50%) rotate(45deg);
-  }
-  
-  #prev::before {
-    transform: translate(-50%, -50%) rotate(-135deg);
-  }
-  
-  #prev:hover::before,
-  #next:hover::before {
-    border-color: var(--second-color);
-  }
-  
-  .days {
-    font-weight: 600;
-  }
-  
-  .days li .today {
-    color: #fff;
-  }
-  
-  .dates li .today::before {
-    content: "";
-    width: 2rem;
-    height: 2rem;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: #000;
-    border-radius: 50%;
-    z-index: -1;
-  }
-  
-  .days li .inactive {
-    color: #ccc;
-  }
-  
   /* DISCOVERY PAGE: POLAROID IMAGES */
   .gallery {
     background-color: var(--darker-color);
-    color: var(--lighten-color);
+    color: var(--second-color);
     padding-bottom: 40px;
   }
   
@@ -383,7 +282,6 @@
     text-align: center;
     font-size: 24px;
     font-weight: 900;
-    font-family: Georgia, "Times New Roman", Times, serif;
     margin-bottom: 10px;
   }
   
@@ -408,67 +306,11 @@
   
   .pola-title-container {
     background-color: var(--lighten-color);
-    color: var(--darker-color);
+    color: var(--main-color);
     text-align: center;
     font-size: 24px;
     padding: 10px 20px;
     font-weight: 800;
-  }
-  
-  /* current Weather */
-  .wether-section {
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-    align-items: center;
-    justify-content: center;
-    background-color: var(--lighten-color);
-    padding-block: 40px;
-  }
-  
-  .current-weather {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--main-color);
-    color: var(--lighten-color);
-    width: 60%;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 5px 4px 8px -3px rgba(0, 0, 0, 0.56);
-  }
-  
-  .current-weather-title {
-    font-size: 28px;
-    font-weight: 600;
-  }
-  
-  .current-weather p {
-    font-size: 20px;
-    padding-top: 5px;
-  }
-  
-  .forest-weather {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--main-color);
-    color: var(--lighten-color);
-    width: 60%;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 5px 4px 8px -3px rgba(0, 0, 0, 0.56);
-  }
-  
-  .forest-weather h2 {
-    padding-bottom: 5px;
-  }
-  
-  .forest-weather p {
-    font-size: 20px;
-    padding-top: 5px;
   }
   
   /* Button cards members */
@@ -564,18 +406,11 @@
     padding-top: 60px;
     padding-left: 15px;
     background-color: var(--cta-color);
-    color:var(--darker-color);
+    color:var(--main-color);
     font-size: 50px;
-    animation-name:glow;
-    animation-duration:.5s;
-    animation-iteration-count:infinite;
-    animation-direction:alternate;
   }
   
-  @keyframes glow{
-    from{text-shadow:0px 0px 60px #0d1b2a,0px 0px 5px #614ad3;}
-    to{text-shadow:0px 0px 60px #0d1b2a,0px 0px 20px #614ad3;}
-  }
+
   /* FOOTER */
   
   .footer {
