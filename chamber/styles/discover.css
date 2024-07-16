@@ -403,6 +403,23 @@
     color:var(--main-color);
     font-size: 50px;
   }
+
+ 
+.blog-bttn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: black; 
+    color: white; 
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 16px;
+  }
+  
+  .blog-bttn:hover {
+    background-color: gray; 
+  }
+  
   
 
   /* FOOTER */
