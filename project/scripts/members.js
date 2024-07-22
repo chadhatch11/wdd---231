@@ -1,5 +1,5 @@
 export async function getMembers() {
-    const response = await fetch("https://raw.githubusercontent.com/chadhatch11/wdd231/main/chamber/data/members.json");
+    const response = await fetch("https://raw.githubusercontent.com/chadhatch11/wdd231/main/project/data/members.json");
     const members = await response.json();
     return members;
   }
