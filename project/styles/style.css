@@ -5,7 +5,7 @@
   }
   
   :root {
-    --primary-color: gray;
+    --primary-color: rgb(186, 183, 183);
     --secondary-color: black;
     --accent-color: #add8e6;
     --background-color: #011f5b;
@@ -53,7 +53,7 @@
   }
   
   .navigation a:hover {
-    background-color: gray;
+    background-color: rgb(186, 183, 183);
     color: black;
     font-size: 25px;
     width: 100%;
@@ -198,7 +198,7 @@
   
   .event-info{
       margin-bottom: 30px;
-      background-color: gray;
+      background-color: rgb(186, 183, 183);
       width: 98%;
       padding-left: 10px;
       padding-bottom: 10px;
@@ -233,7 +233,7 @@
   }
   
   .button:hover {
-    background-color: gray;
+    background-color: rgb(186, 183, 183);
     color: black;
   }
   
@@ -261,7 +261,7 @@
   
   .card {
     border-radius: 8px;
-    background-color: gray;
+    background-color: rgb(186, 183, 183);
     flex-basis: 30%;
     flex-grow: 1;
     border: 1px solid #000;
@@ -341,7 +341,7 @@
 }
 
 .home-card {
-  background-color: gray;
+  background-color: rgb(186, 183, 183);
   margin-bottom: 20px;
   font-size: 0.9rem;
 }
