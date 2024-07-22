@@ -1,3 +1,4 @@
+// API URL for fetching cryptocurrency prices
 const url = "https://min-api.cryptocompare.com/data/pricemulti?fsyms=BTC,ETH,XRP&tsyms=USD,EUR,GBP";
 
 const vm = new Vue({
@@ -8,31 +9,31 @@ const vm = new Vue({
     },
     mounted() {
         if (this.currentView === 'prices') {
-            this.startUpdating();
+            this.startUpdating(); 
         }
     },
     watch: {
         currentView: function(newView) {
             if (newView === 'prices') {
-                this.startUpdating();
+                this.startUpdating(); 
             } else {
-                this.stopUpdating();
+                this.stopUpdating(); 
             }
         }
     },
     methods: {
         startUpdating: function() {
-            this.update();
-            this.timer = setInterval(this.update, 1000);
+            this.update(); 
+            this.timer = setInterval(this.update, 1000); 
         },
         stopUpdating: function() {
-            clearInterval(this.timer);
+            clearInterval(this.timer); 
         },
         update: function() {
             axios.get(url).then(response => {
-                this.results = response.data;
+                this.results = response.data; 
             }).catch(error => {
-                console.error("Error fetching data: ", error);
+                console.error("Error fetching data: ", error); 
             });
         }
     }
