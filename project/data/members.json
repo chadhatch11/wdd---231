@@ -1,0 +1,68 @@
+[
+    {
+        "name": "Coinbase",
+        "address": "430 California St, San Francisco, CA 94104",
+        "phone_number": "(888) 908-7930",
+        "website_url": "https://www.coinbase.com",
+        "image_icon": "../project/images/coinbase.webp",
+        "membership_level": 3,
+        "industry": "Finance",
+        "contact_person": "Juan Pablo",
+        "email": "contact@coinbase.com"
+    },
+    {
+        "name": "Kracken",
+        "address": "237 Kearny St #102, San Francisco, CA 94104",
+        "phone_number": "(888) 837-8815",
+        "website_url": "https://www.kracken.com",
+        "image_icon": "../project/images/kracken.webp",
+        "membership_level": 3,
+        "industry": "Finance",
+        "contact_person": "Fabian Huanca",
+        "email": "contact@kracken.com"
+    },
+    {
+        "name": "Binance",
+        "address": "252 NW 29th Street, 9th Floor, Suite 905, Miami, FL 33127",
+        "phone_number": "(844) 900-1450",
+        "website_url": "https://www.binance.com",
+        "image_icon": "../project/images/binance.webp",
+        "membership_level": 3,
+        "industry": "Finance",
+        "contact_person": "Ronald Saez",
+        "email": "contact@binance.com"
+    },
+    {
+        "name": "Bitrue",
+        "address": "475 Colorado St, San Francisco, CA 94104",
+        "phone_number": "(888) 908-7110",
+        "website_url": "https://www.bitrue.com",
+        "image_icon": "../project/images/bitrue.webp",
+        "membership_level": 3,
+        "industry": "Finance",
+        "contact_person": "Luis Franco",
+        "email": "contact@bitrue.com"
+    },
+    {
+        "name": "Robinhood",
+        "address": "85 Willow Road, Menlo Park, CA 94025",
+        "phone_number": "(650) 940-2700",
+        "website_url": "https://www.robinhood.com",
+        "image_icon": "../project/images/robinhood.webp",
+        "membership_level": 3,
+        "industry": "Finance",
+        "contact_person": "Mario Guzman",
+        "email": "contact@robinhood.com"
+    },
+    {
+        "name": "Webull",
+        "address": "44 Wall Street, Suite 501, 2nd Floor, New York, NY 10005",
+        "phone_number": "(888) 828-0618",
+        "website_url": "https://www.webull.com",
+        "image_icon": "../project/images/webull.webp",
+        "membership_level": 3,
+        "industry": "Finance",
+        "contact_person": "Raul Tumialan",
+        "email": "contact@webull.com"
+    }
+  ]
