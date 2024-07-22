@@ -15,15 +15,15 @@ document.addEventListener("DOMContentLoaded", function() {
 
   let message;
   if (!lastVisit) {
-    message = "Welcome! Let us know if you have any questions.";
+    message = "Welcome! Please join our discord below";
   } else {
     const daysBetweenVisits = calculateDaysBetweenVisits(parseInt(lastVisit), nowDate);
     if (daysBetweenVisits < 1) {
-      message = "Back so soon! Awesome!";
+      message = "Check out our upcoming events below";
     } else if (daysBetweenVisits === 1) {
-      message = "You last visited 1 day ago.";
+      message = "You last visited 1 day ago. Have you joined the discord?";
     } else {
-      message = `You last visited ${daysBetweenVisits} days ago.`;
+      message = `You last visited ${daysBetweenVisits} days ago. Have you joined the discord?`;
     }
   }
 
