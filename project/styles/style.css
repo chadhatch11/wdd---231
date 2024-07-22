@@ -124,6 +124,21 @@
   
   /* MAIN */
 
+  .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 30px;
+    justify-content: center;
+}
+.item {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-size: 33px;
+  background-color: #bcbbbb;
+  color: #000; 
+}
 
 .hero {
   text-align: center;
