@@ -15,8 +15,6 @@ export async function getMembers() {
           phone_number,
           website_url,
           image_icon,
-          membership_level,
-          industry,
           contact_person,
           email,
         }) => `
