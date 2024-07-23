@@ -243,8 +243,9 @@
   }
   
   .flex-container {
+    padding-top: 30px;
     display: flex;
-    gap: 10px;
+    gap: 20px;
     max-width: 95%;
     margin-inline: auto;
     flex-wrap: wrap;
