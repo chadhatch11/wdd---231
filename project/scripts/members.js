@@ -32,9 +32,7 @@ export async function getMembers() {
                 <p><span class="font-bold">Address: </span>${address}</p>
                 <p><span class="font-bold">Phone: </span>${phone_number}</p>
                 <p><span class="font-bold">URL: </span><a href="${website_url}" target="_blank">${website_url}</a></p>
-                <p><span class="font-bold">Membership Level: </span>${membership_level}</p>
                 <p><span class="font-bold">Contact: </span>${contact_person}</p>
-                <p><span class="font-bold">Industry: </span>${industry}</p>
               </div>
             </div>
           </div>
